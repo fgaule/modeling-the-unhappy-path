@@ -1,0 +1,8 @@
+server:
+  port: 9290
+  servlet:
+    context-path: /travel-agent
+
+spring:
+  main:
+    banner-mode: "off"
