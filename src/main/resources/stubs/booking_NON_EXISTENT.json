@@ -1,0 +1,18 @@
+{
+  "request": {
+    "urlPath": "/bookings",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "contains": "BookingCode=NON_EXISTENT"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/soap+xml; charset=utf-8"
+    },
+    "bodyFileName": "response_booking_NON_EXISTENT.xml"
+  }
+}

@@ -5,4 +5,18 @@ server:
 
 spring:
   main:
-    banner-mode: "off"
+    banner-mode: 'off'
+
+  jackson:
+    default-property-inclusion: non_empty
+    property-naming-strategy: SNAKE_CASE
+
+wiremock:
+  server:
+    port: 9291
+    stubs: classpath:/stubs
+    files: classpath:/stubs
+
+travelagent:
+  repository:
+    endpoint: 'http://localhost:9291/bookings'

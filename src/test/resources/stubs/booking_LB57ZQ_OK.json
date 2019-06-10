@@ -1,0 +1,18 @@
+{
+  "request": {
+    "urlPath": "/bookings",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "contains": "BookingCode=LB57ZQ"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/soap+xml; charset=utf-8"
+    },
+    "bodyFileName": "response_booking_LB57ZQ.xml"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "request": {
+    "urlPath": "/bookings",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "contains": "BookingCode=AB13ZX"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/soap+xml"
+    },
+    "bodyFileName": "response_booking_AB13ZX.xml"
+  }
+}

@@ -1,0 +1,101 @@
+<wsResult xmlns="">
+    <Bookings>
+        <Booking Id="1025569" Status="Confirmed" CancelDate="" tcNumber="" tcAccountNumber="" tcPointsAmount="" BookingLabel="" BookingDate="2019-04-07T18:41:53" TimeLimit="" BookingCode="LB57ZQ" Channel="Intr" LastModifiedDate="2019-07-04T21:28:16"  AgencyRef="A" FinalCustomerId="">
+            <Agent id="999">
+                <Name>
+                    <![CDATA[Smith]]>
+                </Name>
+            </Agent>
+            <SellingPrice>1328122.00</SellingPrice>
+            <Description>
+                <![CDATA[Vacaciones de Invierno en Salvador de Bahía]]>
+            </Description>
+            <Cost>5824.00</Cost>
+            <Commission>0.00</Commission>
+            <OutStandingAmount>0.00</OutStandingAmount>
+            <TPVTransaction>
+                <IdTransaction></IdTransaction>
+                <PaymentType CreditCardType="">Pre-payment          </PaymentType>
+            </TPVTransaction>
+            <Invoiced>N</Invoiced>
+            <Lines>
+                <Line IdBookLine="99999" LineDate="2023-04-07T18:42:14" LineCancelled="False" LineCancelledDate="" LineMarkup="100.00" Externalreference="" ExternalClientBookingNo.="" DirectPayment="False" PaymentAtDestination="False" NumPackage="" NonRefundable="False">
+                    <RelatedBookingLine id="" />
+                    <ServiceName>
+                        <![CDATA[Handling fee per person-Adult]]>
+                    </ServiceName>
+                    <ProductType>JHF</ProductType>
+                    <ProductTypeName>Ajuste Handling Fee</ProductTypeName>
+                    <ProductGroup>79</ProductGroup>
+                    <ProductCodExport></ProductCodExport>
+                    <ProductGroupAnalyticCode></ProductGroupAnalyticCode>
+                    <DepartmentGroup>-1</DepartmentGroup>
+                    <DepartmentGroupAnalyticCode></DepartmentGroupAnalyticCode>
+                    <Market>10</Market>
+                    <ProductGroupName>Grupo producto defecto</ProductGroupName>
+                    <Productid>-1</Productid>
+                    <SellingPrice>25800.00</SellingPrice>
+                    <Commission>0.00</Commission>
+                    <PerCommission>0.00</PerCommission>
+                    <CostCurrency>CLP</CostCurrency>
+                    <SellCurrency>CLP</SellCurrency>
+                    <CostBaseLine>0.00</CostBaseLine>
+                    <CostCancellationFees></CostCancellationFees>
+                    <NetCostLine>0.00</NetCostLine>
+                    <ComissionAmount>0.00</ComissionAmount>
+                    <ComissionTaxPercent>0.00</ComissionTaxPercent>
+                    <ComissionPercent>0.00</ComissionPercent>
+                    <CommisionTaxAmount>0.00</CommisionTaxAmount>
+                    <Profit>25800.00</Profit>
+                    <SerialERP>FCE</SerialERP>
+                    <Remarks>
+                        <![CDATA[Handling fee per person-Adult]]>
+                    </Remarks>
+                    <PromotionCode></PromotionCode>
+                    <GuaranteeBreakdown>
+                        <contract Type="C">
+                            <id></id>
+                            <CostGuaranteeAmount>0.00</CostGuaranteeAmount>
+                            <CostAmountToBeInvoiced>0.00</CostAmountToBeInvoiced>
+                            <Extras>0.00</Extras>
+                        </contract>
+                        <contract Type="S">
+                            <id></id>
+                            <SalesGuaranteeAmount>0.00</SalesGuaranteeAmount>
+                            <SalesAmountToBeInvoiced>25800.00</SalesAmountToBeInvoiced>
+                            <Extras>25800.00</Extras>
+                        </contract>
+                    </GuaranteeBreakdown>
+                    <BasePriceCommission>25800.00</BasePriceCommission>
+                    <CustomerCommission>0.00</CustomerCommission>
+                    <BasePriceWithOutTax>25800.00</BasePriceWithOutTax>
+                    <BasePrice>25800.00</BasePrice>
+                    <CancellationFees></CancellationFees>
+                    <BaseChangeFactor>0.00</BaseChangeFactor>
+                    <CostChangeFactor>1.00</CostChangeFactor>
+                    <Zone Id="1559">
+                        <description>
+                            <![CDATA[Salvador de Bahia]]>
+                        </description>
+                        <state>
+                            <![CDATA[Salvador de Bahia]]>
+                        </state>
+                        <country>
+                            <![CDATA[Brasil]]>
+                        </country>
+                    </Zone>
+                    <BeginTravelDate>2023-07-18T00:00:00</BeginTravelDate>
+                    <EndTravelDate>2023-07-18T00:00:00</EndTravelDate>
+                    <ExternalSupplierConfirmationNumber></ExternalSupplierConfirmationNumber>
+                    <ProviderAccount></ProviderAccount>
+                    <PaxNumber>2</PaxNumber>
+                    <NightsNumber>0</NightsNumber>
+                    <FlightDetails />
+                    <isExtranet>N</isExtranet>
+                    <VirtualCreditCardPayment>False</VirtualCreditCardPayment>
+                    <roomlist></roomlist>
+                </Line>
+            </Lines>
+        </Booking>
+    </Bookings>
+</wsResult>
